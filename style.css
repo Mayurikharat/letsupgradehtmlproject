@@ -1,0 +1,164 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: antiquewhite;
+    width: 100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.header-ul > li{
+    padding: 20px;
+    display: inline-block;
+    cursor: pointer;
+}
+.sidenav{
+    background-color: antiquewhite;
+    width: 15%;
+    height: 100vh;
+    padding-top: 10px;
+
+}
+.dp{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgb(190, 249, 249);
+}
+.personal-details{
+    text-align: center;
+}
+.other-details{
+    margin-left: 20px;
+}
+.skills{
+    margin-left: 20px;
+}
+.container{
+    display: flex;
+}
+.main{
+    width: 85%;
+}
+.intro{
+    display: flex;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 70%;
+    height: 300px;
+    padding: 50px;
+}
+.yellow{
+    color: rgb(63, 63, 239);
+}
+.basic{
+    width: 35%;
+    margin-left: 60px;
+}
+.myimage{
+    width: 65%;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    margin-top: -10px;
+    margin-left: 150px;
+}
+.hireme{
+    background-color: coral;
+    border: none;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    font-size:20px;
+}
+.section{
+    text-align: center;
+}
+.edu{
+    width: 500px;
+    opacity: 0.5;
+    margin: 0 auto;
+}
+.box{
+    padding: 50px;
+    margin-top: 20px;
+    height: 500px;
+    width: 80%;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+.flexbox{
+    display: flex;
+}
+.institute-details{
+    width: 20%;
+}
+.certificate-details{
+    width: 80%;
+    margin-left: 10px;
+}
+.work{
+    text-align: center;
+}
+.wok{
+    width: 500px;
+    opacity: 0.5;
+    margin: 0 auto;
+}
+.step{
+    padding: 50px;
+    margin-top: 20px;
+    height: 500px;
+    width: 80%;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+.stepbox{
+    display: flex;
+}
+.work-details{
+    width: 20%;
+}
+.job-details{
+    width: 80%;
+    margin-left: 10px;
+}
+.cards-container{
+    padding: 50px;
+    margin-top: 20px;
+    height: 300px;
+    width: 80%;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cards{
+    display: flex;
+    justify-content: start;
+    overflow: scroll;
+    width: 100%;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: darksalmon;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.img{
+    height: 180px;
+    width: 200px;
+}
